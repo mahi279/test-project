@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 "> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Ecdo | Services we provide</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<!-- menu and navbar header links -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="../css/style.css">
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+	<script>
+	$(document).ready(function() {
+        // Transition effect for navbar 
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 279) { 
+              $('.navbar').addClass('solid');
+          } else {
+              $('.navbar').removeClass('solid');
+          }
+        });
+});
+// shortcut keys disable function
+$(document).keydown(function (event) {
+    if (event.keyCode == 123) { // Prevent F12
+        return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+        return false;
+    } else if(event.ctrlKey && event.keyCode == 85){ // Prevent Ctrl+U
+        return false;
+    } else if(event.ctrlKey && event.keyCode == 80){ // Prevent Ctrl+P
+        return false;
+    } else if(event.ctrlKey && event.keyCode == 83){ // Prevent Ctrl+S
+        return false;
+    }
+});
+</script>
+<script>
+
+
+//right click disable function
+
+
+var message="Sorry Right Click Won't Work Here...!";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+</script>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons Touchicons -->
+    <link rel="shortcut icon" href="images/Favicon_16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/appletouchicon.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="images/androidtouchicon.png">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,400italic,500,600,700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='../css/global.css'>
+    <link rel='stylesheet' href='css/structure.css'>
+    <link rel='stylesheet' href='css/webdesign.css'>
+    <link rel='stylesheet' href='css/custom.css'>
+
+</head>
+
+<body class="page layout-full-width button-stroke no-content-padding header-overlay header-transparent minimalist-header sticky-header sticky-white subheader-title-left hide-title-area">
+    <!-- Main Theme Wrapper -->
+    <div id="Wrapper">
+        <!-- Header Wrapper -->
+        <div id="Header_wrapper">
+            <!-- Header -->
+            <header>
+                <!-- Header -  Logo and Menu area -->
+                <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="margin-top:27px;">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html"><img src="images/logo.png" alt="" height="54px;" width="117px;"/></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse menu279">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="what-we-do.html">WHAT WE DO</a></li>
+            <li><a href="our-works.html">OUR WORKS</a></li>
+			<li><a href="contact-us.html">CONTACT</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+            </header>
+        </div>
+        <!-- Main Content -->
+        <div id="Content">
+            <div class="content_wrapper clearfix">
+                <div class="sections_group">
+                    <div class="entry-content">
+                        <div class="section dark " style="padding-top:200px; padding-bottom:80px; background-image:url(images/our-services-banner.jpg); background-repeat:no-repeat; background-position:center top; ">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_column ">
+                                        <div class="column_attr ">
+                                            <h2 style="font-weight: 700;">OUR SERVICES</h2>
+                                            <div class="image_frame no_link scale-with-grid alignnone no_border">
+                                                <div class="image_wrapper"><img class="scale-with-grid" src="images/home_webdesign_slider_sep.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section sections_style_5">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One full width row-->
+                                    <div class="column one column_column ">
+                                        <div class="column_attr align_center">
+                                            <h3>Our expert developers providing one step digital solutions
+												<br>
+												for startups and also for large brands</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section" style="padding-top:0px; padding-bottom:30px; ">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <!--<div class="column one column_divider ">
+                                        <div class="hr_wide hrmargin_b_40">
+                                            <hr>
+                                        </div>
+                                    </div>-->
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image ">
+									<a href="Website-design-and-development.html">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/Website-design-and-development-our-services-image.jpg" alt="">
+                                            </div>
+                                        </div>
+									</a>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column ">
+                                        <div class="column_attr ">
+                                            <h3 style="font-weight: 700;"><span style="display: inline-block; width: 25px; height: 25px; background: #000; overflow: hidden; margin-right: 15px;"></span>Website <br> Design And Development</h3>
+                                            <p class="big">
+                                                We have been designing and building websites interfaces for more than 5 years. We develop websites base on your requirements and goals. To find the best solutions to fit your requirements, it is crucial for us to follow the process step by step. Purpose of designing is to guide and direct our user experience (UX) interface, mobile responsive and creative solutions. All the web-sites design will be developed for speed optimization and also search engine optimization (SEO) that ensure you reach your audience directly and it will increase web traffic as well as your ROI.
+                                            </p>
+                                            <p class="big">
+                                                <a style="color: #0c7baf;" href="Website-design-and-development.html">Read more...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+									<!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <div class="column one column_divider ">
+                                        <div class="hr_wide hrmargin_b_40">
+                                            <hr>
+                                        </div>
+									</div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image ">
+									<a href="Mobile-application-design-and-development.html">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/Mobile-application-design-and-development-our-services-image.jpg" alt="">
+                                            </div>
+                                        </div>
+									</a>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column ">
+                                        <div class="column_attr ">
+                                            <h3 style="font-weight: 700;"><span style="display: inline-block; width: 25px; height: 25px; background: #000; overflow: hidden; margin-right: 15px;"></span>Mobile Application <br> Design And Development</h3>
+                                            <p class="big">
+                                                Growing companies now believe that it’s mandatory for businesses to have a standard mobile app. Even startup companies are diverging their ways towards a mobile app. This brings custom mobile app development to be effective, accurate and affordable. Having custom mobile applications for your business can be compared to having a website is better. Mobile devices are more popular nowadays than traditional Desktop PCs are more frequently used globally. They can hype customer's engagement, help to promote specific products and services, provide improved customer service to clients. 
+                                            </p>
+                                            <p class="big">
+                                                <a style="color: #0c7baf;" href="Mobile-application-design-and-development.html">Read more...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+									<!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <div class="column one column_divider ">
+                                        <div class="hr_wide hrmargin_b_40">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image ">
+									<a href="Web-systems-design-and-development.html">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/Web-systems-design-and-development.jpg" alt="">
+                                            </div>
+                                        </div>
+									</a>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column ">
+                                        <div class="column_attr ">
+                                            <h3 style="font-weight: 700;"><span style="display: inline-block; width: 25px; height: 25px; background: #000; overflow: hidden; margin-right: 15px;"></span>Web Systems <br> Design And Development</h3>
+                                            <p class="big">
+                                                We have experienced programming staff in developing custom-made web applications for your website. We also have a wide-range of ready-made, highly customizable web applications that can be quickly and easily added to your websites. The inclusion of appropriate web applications increases the amount of user interactivity on your site, increases the control you have over the site content and decreases your ongoing site maintenance budget. Often, you might need custom web applications that are more useful to your business. Our professionals know the benefits of Web based application development.
+                                            </p>
+                                            <p class="big">
+                                                <a style="color: #0c7baf;" href="Web-systems-design-and-development.html">Read more...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+									<!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <div class="column one column_divider ">
+                                        <div class="hr_wide hrmargin_b_40">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image ">
+									<a href="Progressive-web-applications.html">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/progressive-web-application-design-and-development.jpg" alt="">
+                                            </div>
+                                        </div>
+									</a>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column ">
+                                        <div class="column_attr ">
+                                            <h3 style="font-weight: 700;"><span style="display: inline-block; width: 25px; height: 25px; background: #000; overflow: hidden; margin-right: 15px;"></span>Progressive Web Application <br> Design And Development</h3>
+                                            <p class="big">
+                                                Developing a Progressive Web App enables companies to remove friction and experience large increases in engagement and conversions. Progressive Web Apps work full screen, live on the home page, and harness the full power of the device. To the consumer, a PWA is nearly indiscernible from a normal app, except for a few key enhancements. Progressive Web Apps use less data than a Native App and work exceptionally well on slow and unreliable internet connections. With a PWA, your users always have the latest version without update. You never have to disturb them with updates.
+                                            </p>
+                                            <p class="big">
+                                                <a style="color: #0c7baf;" href="Progressive-web-applications.html">Read more...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+									<!-- Page devider -->
+                                    <!-- One full width row-->
+                                    <div class="column one column_divider ">
+                                        <div class="hr_wide hrmargin_b_40">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_image ">
+									<a href="E-commerce-websites-and-applications-design-and-development.html">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/E-commerce-web-and-application-design-and-development.jpg" alt="">
+                                            </div>
+                                        </div>
+									</a>
+                                    </div>
+                                    <!-- One Second (1/2) Column -->
+                                    <div class="column one-second column_column ">
+                                        <div class="column_attr ">
+                                            <h3 style="font-weight: 700;"><span style="display: inline-block; width: 25px; height: 25px; background: #000; overflow: hidden; margin-right: 15px;"></span>E-commerce <br/> Web And Applications <br> Design And Development</h3>
+                                            <p class="big">
+                                                At Ecdo, we design and develop your e-commerce websites to solve your loophole of your business strategies. With team of skilled developers, dealing mainly with e-commerce businesses, we also provide professional systematic operations and maintenance services to ensure your website is running smoothly. It is now a well established and never stop growing part of the economy. Online shoppers will and must experience the functionality, convenience and security in ecommerce website whether you want to run a retails or wholesale store, going ecommerce will never be wrong.
+                                            </p>
+                                            <p class="big">
+                                                <a style="color: #0c7baf;" href="E-commerce-websites-and-applications-design-and-development.html">Read more...</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section" style="padding-top:90px; padding-bottom:50px; background-image:url(images/home_webdesign_newsletter_bg.jpg); background-repeat:no-repeat; background-position:center top; background-attachment:fixed; background-size:cover; -webkit-background-size:cover;" data-stellar-background-ratio= "0.5">
+                            <div class="section_wrapper clearfix">
+                                <div class="items_group clearfix">
+                                    <!-- One Third (1/3) Column -->
+                                    <!--<div class="column one-third column_image ">
+                                        <div class="image_frame no_link scale-with-grid no_border">
+                                            <div class="image_wrapper"><img class="scale-with-grid" src="images/contactus.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>-->
+                                    <!-- One Third (1/3) Column -->
+			<div class="column one-third column_column">
+											<div class="column_attr " >
+												<h3 style="color: #fff; position: relative; top: -9px; margin-left: 10px"><span style="font-weight: 700;">Do you have Idea 
+												<br>
+												to share with us?</span></h3>
+												<br>
+												<p style="color: #fff; position: relative; top: -9px; margin-left: 10px">
+												We would love to hear from you.<br>Drop us a message or call us know.
+												</p>
+											</div>
+										</div>
+										<!-- One Third (1/3) Column -->
+			<div class="column one-third column_column">
+											<div class="column_attr " >
+												<div style="margin-top: 33px;">
+													<div class="tp-caption tp-resizeme" id="slide-4-layer-8" data-x="140" data-y="center" data-voffset="310" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="x:-50px;opacity:0;s:1000;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-start="2100" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 12; min-width: auto; min-height: auto; white-space: nowrap; max-width: auto; max-height: auto; font-size: 36px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);padding:0 0 0 0;border-radius:0 0 0 0;">
+                                        <a class="button button_stroke_custom button_js" href="contact-us.html" style=" border-color:#fff !important; color:#fff;"><span class="button_label">Contact Us</span></a>
+                                                    </div>
+												</div>
+											</div>
+										</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section the_content no_content">
+                            <div class="section_wrapper">
+                                <div class="the_content_wrapper"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer id="Footer" class="clearfix">
+            <div class="widgets_wrapper">
+                <div class="container">
+                    <!-- One Second (1/2) Column -->
+                    <div class="column one-second">
+                        <!-- Text Area -->
+                        <aside class="widget widget_text">
+                            <div class="textwidget">
+                                <div class="image_frame no_link scale-with-grid alignnone no_border">
+                                    <div class="image_wrapper"><img class="scale-with-grid" src="images/Logo-footer-Website-design.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <!-- One Second (1/2) Column -->
+                    <div class="column one-second">
+                        <!-- Text Area -->
+                        <aside class="widget widget_text">
+                            <div class="textwidget">
+                                <p class="contact_icons" style="text-align: right; margin-top: 10px;">
+                                    <a style="color: #fff;" href="https://www.facebook.com/Ecdo-2352424488376819/"><i class="icon-facebook-circled"></i></a><a style="color: #fff;" href="#"><i class="icon-gplus-circled"></i></a><a style="color: #fff;" href="https://twitter.com/ecdoweb"><i class="icon-twitter-circled"></i></a><a style="color: #fff;" href="#"><i class="icon-pinterest-circled"></i></a><a style="color: #fff;" href="#"><i class="icon-linkedin-circled"></i></a>
+                                </p>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer copyright-->
+            <div class="footer_copy">
+                <div class="container">
+				    <div class="column one">
+					    <p>
+						 <a href="https://ecdoweb.com">webdevelopment</a>, <a href="https://ecdoweb.com">Mobile application</a>, <a href="https://ecdoweb.com/content/Website-design-and-development.html">Custom Website design company</a>, <a href="https://ecdoweb.com/content/Mobile-application-design-and-development.html">Mobile Application development company</a>, <a href="https://ecdoweb.com/content/Mobile-application-design-and-development.html">E-commerce applications</a>, <a href="https://ecdoweb.com/content/Website-design-and-development.html">Website design and development company</a>
+						</p>
+					</div>
+                    <div class="column one">
+                        <nav id="social-menu">
+                            <ul id="menu-main-menu-1" class="social-menu">
+                                <li>
+                                    <a href="../index-webdesign.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Ecdo</a>
+                                </li>
+                                <li class="current_page_item">
+                                    <a href="#">What we do</a>
+                                </li>
+                                <li>
+                                    <a href="our-works.html">Our Works</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+						<a href="https://twitter.com/ecdoweb?ref_src=twsrc%5Etfw" class="twitter-follow-button" style="position: absolute; left: 0px; top: 0px; z-index: -1;" data-show-count="false">Follow @ecdoweb</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <div class="copyright">
+                            &copy; 2018 Ecdo - Website and Mobile application design and development company
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <!-- JS -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+
+    <script src="../js/mfn.menu.js"></script>
+    <script src="../js/jquery.plugins.js"></script>
+    <script src="../js/jquery.jplayer.min.js"></script>
+    <script src="../js/animations/animations.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/email.js"></script>
+
+    <script>
+        jQuery(window).load(function() {
+            var retina = window.devicePixelRatio > 1 ? true : false;
+            if (retina) {
+                var retinaEl = jQuery("#logo img.logo-main");
+                var retinaLogoW = retinaEl.width();
+                var retinaLogoH = retinaEl.height();
+                retinaEl.attr("src", "images/retina-webdesign.png").width(retinaLogoW).height(retinaLogoH);
+                var stickyEl = jQuery("#logo img.logo-sticky");
+                var stickyLogoW = stickyEl.width();
+                var stickyLogoH = stickyEl.height();
+                stickyEl.attr("src", "images/retina-webdesign.png").width(stickyLogoW).height(stickyLogoH);
+            }
+        });
+    </script>
+</body>
+
+</html>
